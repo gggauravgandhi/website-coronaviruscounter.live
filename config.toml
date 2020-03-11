@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://coronaviruscounter.live/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Live Coronavirus Counter - India"
 theme = "hugrid"
