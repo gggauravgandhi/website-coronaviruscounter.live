@@ -1,0 +1,30 @@
+# Site settings
+baseurl = "https://coronaviruscounter.live/"
+languageCode = "en-us"
+title = "Live Coronavirus Counter - India"
+theme = "hugrid"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "Live Coronavirus Counter - India"
+    subtitle = "State wise Coronavirus Counter for India"
+    author = "Gaurav Gandhi"
+    description = "State wise Coronavirus Counter for India. Get updated with latest Coronavirus number."
+    keywords = "coronavirus, india, counter, coronavirus update, coronavirus india, india counter, coronavirus numbers"
+
+    # Body background color
+    bodybgcolor = "#f9f9f9"
+
+    # Preview container button text
+    buttontext = "Refresh"
+
+    # Footer text
+    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/aerohub)"
+
+    # add extra-css
+    # custom_css = ['css/extra1.css', 'css/extra2.css']
