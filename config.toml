@@ -14,8 +14,8 @@ publishdir = "public"
     title = "Live Coronavirus Counter - India"
     subtitle = "State wise Coronavirus Counter for India"
     author = "Gaurav Gandhi"
-    description = "State wise Coronavirus Counter for India. Get updated with latest Coronavirus number."
-    keywords = "coronavirus, india, counter, coronavirus update, coronavirus india, india counter, coronavirus numbers"
+    description = "Live counter for statewise Coronavirus in india."
+    keywords = "coronavirus, india, counter, coronavirus update, coronavirus india, india counter, coronavirus numbers, coronavirus update, coronavirus in india,coronavirus news,coronavirus china, coronavirus affected areas in india,coronavirus bangalore,coronavirus delhi, coronavirus mumbai, coronavirus by country,coronavirus cases in india"
 
     # Body background color
     bodybgcolor = "#f9f9f9"
