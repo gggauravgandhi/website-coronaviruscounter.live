@@ -27,7 +27,11 @@
         color: #fff;
       }
       .countryBox {
-        background-color: #6d4c41;
+        background-color: #303f9f;
+        color: #fff;
+      }
+      .planetBox {
+        background-color: #b71c1c;
         color: #fff;
       }
     </style>
@@ -36,9 +40,11 @@
   <body>
     <div class="container">
       {{ partial "header.html" . }}
-      <h4><a href="/india" class="links">World Counters</a></h4>
+      <h4><a href="/" class="links">Go back to World Counters</a></h4>
+
       <div class="main">
-        <ul id="og-grid" class="og-grid">
+        <!-- <ul id="og-grid" class="og-grid"> -->
+        <ul class="og-grid">
           {{ range $.Site.Data.india }}
           <li>
             <!-- <a
