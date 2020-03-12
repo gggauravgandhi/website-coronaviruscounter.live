@@ -13,6 +13,7 @@ publishdir = "public"
     # Meta
     title = "Live Coronavirus Counter - India"
     subtitle = "State wise Coronavirus Counter for India as on 12-03-2020 11:00 AM"
+    news_line_1 = "The total number of confirmed Coronavirus cases has now gone up to 73 in India, according to the Union Health Ministry data till 11 AM, March 12, 2020. Of the total number of confirmed cases, 56 are Indians and rest are foreign nationals, as per the ministry. A total of 10,57,506 have been screened in India so far."
     author = "Gaurav Gandhi"
     description = "Live counter for statewise Coronavirus in india."
     keywords = "coronavirus, india, counter, coronavirus update, coronavirus india, india counter, coronavirus numbers, coronavirus update, coronavirus in india,coronavirus news,coronavirus china, coronavirus affected areas in india,coronavirus bangalore,coronavirus delhi, coronavirus mumbai, coronavirus by country,coronavirus cases in india"
