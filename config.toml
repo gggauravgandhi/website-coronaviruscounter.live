@@ -2,7 +2,9 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Live Coronavirus Counter - India"
-theme = "hugrid"
+enableRobotsTXT = "true"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+# theme = "hugrid"
 
 contentdir = "content"
 datadir = "data"

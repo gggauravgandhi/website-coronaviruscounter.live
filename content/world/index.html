@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  <head>
+    <style>
+      .boxHolder {
+        width: 16vw;
+        height: 20vh;
+        text-align: center;
+        padding: 24px;
+        min-width: 200px;
+        background-color: #fff;
+        color: #444;
+      }
+      .boxTitle {
+        font-weight: normal;
+        font-size: 2vh;
+        color: #eee;
+      }
+      .boxCounter {
+        line-height: 11vh;
+        font-weight: bold;
+        font-size: 7vh;
+        color: #fff;
+      }
+      .stateBox {
+        background-color: #00897b;
+        color: #fff;
+      }
+      .countryBox {
+        background-color: #6d4c41;
+        color: #fff;
+      }
+    </style>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <div class="container">
+      {{ partial "header.html" . }}
+      <h4><a href="/india" class="links">India Counters</a></h4>
+      <div class="main">
+        <ul id="og-grid" class="og-grid">
+          {{ range $.Site.Data.world }}
+          <li>
+            <!-- <a
+              href="{{.url}}"
+              data-largesrc="{{.image}}"
+              data-title="{{.stateCounter}} total cases in {{.stateName}}"
+              data-description="{{.description }}"
+              data-buttontext="{{.buttontext}}"
+            > -->
+            <div class="boxHolder {{.boxClass}}Box">
+              <span class="boxTitle">{{.stateName}}</span><br />
+              <span class="boxCounter">{{.stateCounter}}</span>
+            </div>
+            <!-- </a> -->
+          </li>
+          {{ end }}
+        </ul>
+        {{ partial "footer.html" . }}
+      </div>
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

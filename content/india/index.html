@@ -36,9 +36,10 @@
   <body>
     <div class="container">
       {{ partial "header.html" . }}
+      <h4><a href="/india" class="links">World Counters</a></h4>
       <div class="main">
         <ul id="og-grid" class="og-grid">
-          {{ range $.Site.Data.items.items }}
+          {{ range $.Site.Data.newindia }}
           <li>
             <!-- <a
               href="{{.url}}"
@@ -48,8 +49,8 @@
               data-buttontext="{{.buttontext}}"
             > -->
             <div class="boxHolder {{.boxClass}}Box">
-              <span class="boxTitle">{{.stateName}}</span><br />
-              <span class="boxCounter">{{.stateCounter}}</span>
+              <span class="boxTitle">{{.title}}</span><br />
+              <span class="boxCounter">{{.count}}</span>
             </div>
             <!-- </a> -->
           </li>

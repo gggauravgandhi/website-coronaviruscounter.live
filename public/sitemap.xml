@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://coronaviruscounter.live/</loc>
-  <lastmod>2020-03-11T19:43:02+00:00</lastmod>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/india/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/world/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
 </urlset>
