@@ -19,8 +19,19 @@ data.generateStatesData = async () => {
   } catch (exc) {
     throw exc;
   }
+};
 
-  return statesData;
+data.generateCountriesData = async () => {
+  const countriesData = await data.generator.countries();
+
+  try {
+    await jsonfile.writeFile(
+      path.resolve(__dirname, "../data/world.json"),
+      countriesData
+    );
+  } catch (exc) {
+    throw exc;
+  }
 };
 
 data.utils.remapStateNames = name => {
@@ -97,6 +108,62 @@ data.generator.states = async () => {
   }
 
   return statesData;
+};
+
+data.generator.countries = async () => {
+  let countriesData = [];
+
+  try {
+    const response = await fetch("https://www.worldometers.info/coronavirus/");
+    const responseBody = await response.text();
+
+    let $ = cheerio.load(responseBody);
+
+    const result = $("tr")
+      .map((i, element) => ({
+        title: data.utils.remapStateNames(
+          $(element)
+            .find("td:nth-of-type(1)")
+            .text()
+            .trim()
+        ),
+        count: parseInt(
+          $(element)
+            .find("td:nth-of-type(7)")
+            .text()
+            .trim()
+            .replace(/,/g, "")
+        ),
+        boxClass: "country",
+        countryPageURL:
+          "/" +
+          data.utils.remapStateNames(
+            $(element)
+              .find("td:nth-of-type(1)")
+              .text()
+              .trim()
+          )
+      }))
+      .get();
+
+    // Remove header and footer values
+    result.shift();
+    result.pop();
+
+    // Insert country wide total
+    const totalCount = data.utils.calculateTotalCount(result);
+    result.unshift({
+      title: "World",
+      count: totalCount,
+      boxClass: "planet"
+    });
+
+    countriesData = result;
+  } catch (exc) {
+    throw exc;
+  }
+
+  return countriesData;
 };
 
 module.exports = data;
