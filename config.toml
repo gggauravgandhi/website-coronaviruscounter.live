@@ -12,7 +12,7 @@ publishdir = "public"
 [params]
     # Meta
     title = "Live Coronavirus Counter - India"
-    subtitle = "State wise Coronavirus Counter for India"
+    subtitle = "State wise Coronavirus Counter for India as on 12-03-2020 11:00 AM"
     author = "Gaurav Gandhi"
     description = "Live counter for statewise Coronavirus in india."
     keywords = "coronavirus, india, counter, coronavirus update, coronavirus india, india counter, coronavirus numbers, coronavirus update, coronavirus in india,coronavirus news,coronavirus china, coronavirus affected areas in india,coronavirus bangalore,coronavirus delhi, coronavirus mumbai, coronavirus by country,coronavirus cases in india"
