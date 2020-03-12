@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Live Coronavirus Counter - India</title>
+    <title>Live Coronavirus Counter</title>
     <link>/</link>
-    <description>Recent content on Live Coronavirus Counter - India</description>
+    <description>Recent content on Live Coronavirus Counter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -12,20 +12,11 @@
     
     <item>
       <title></title>
-      <link>/china/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/china/</guid>
-      <description>.boxHolder { width: 16vw; height: 20vh; text-align: center; padding: 24px; min-width: 200px; background-color: #fff; color: #444; } .boxTitle { font-weight: normal; font-size: 2vh; color: #eee; } .boxCounter { line-height: 11vh; font-weight: bold; font-size: 6vh; color: #fff; } .stateBox { background-color: #00897b; color: #fff; } .countryBox { background-color: #303f9f; color: #fff; } .planetBox { background-color: #b71c1c; color: #fff; }  {{ partial &#34;head.html&#34; . }}   {{ partial &#34;</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/india/</guid>
-      <description>.boxHolder { width: 16vw; height: 20vh; text-align: center; padding: 24px; min-width: 200px; background-color: #fff; color: #444; } .boxTitle { font-weight: normal; font-size: 2vh; color: #eee; } .boxCounter { line-height: 11vh; font-weight: bold; font-size: 7vh; color: #fff; } .stateBox { background-color: #00897b; color: #fff; } .countryBox { background-color: #303f9f; color: #fff; } .planetBox { background-color: #b71c1c; color: #fff; }  {{ partial &#34;head.html&#34; . }}   {{ partial &#34;</description>
+      <description>.boxHolder { width: 16vw; height: 20vh; text-align: center; padding: 24px; min-width: 200px; background-color: #fff; color: #444; } .boxTitle { font-weight: normal; font-size: 2vh; color: #eee; } .boxCounter { line-height: 11vh; font-weight: bold; font-size: 7vh; color: #fff; } .stateBox { background-color: #00897b; color: #fff; } .countryBox { background-color: #303f9f; color: #fff; } .planetBox { background-color: #b71c1c; color: #fff; }  {{ partial &#34;head.html&#34; . }}   {{ with .</description>
     </item>
     
   </channel>

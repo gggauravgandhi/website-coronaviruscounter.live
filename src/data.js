@@ -107,7 +107,11 @@ data.generator.states = async () => {
     throw exc;
   }
 
-  return statesData;
+  return {
+    items: statesData,
+    news:
+      `The total number of confirmed Coronavirus cases has now gone up to ${statesData[0]['count']} in India, according to the Union Health Ministry as on ${(new Date()).toLocaleString()}.`
+  };
 };
 
 data.generator.countries = async () => {
@@ -129,7 +133,7 @@ data.generator.countries = async () => {
         ),
         count: parseInt(
           $(element)
-            .find("td:nth-of-type(7)")
+            .find("td:nth-of-type(2)")
             .text()
             .trim()
             .replace(/,/g, "")
@@ -163,7 +167,11 @@ data.generator.countries = async () => {
     throw exc;
   }
 
-  return countriesData;
+  return {
+    items: countriesData,
+    news:
+    `The total number of confirmed Coronavirus cases has now gone up to ${countriesData[0]['count']} in World, according to the <a href="https://www.worldometers.info/coronavirus/">WorldMeters</a> as on ${(new Date()).toLocaleString()}.`
+  };
 };
 
 module.exports = data;

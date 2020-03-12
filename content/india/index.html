@@ -39,13 +39,18 @@
   </head>
   <body>
     <div class="container">
-      {{ partial "header.html" . }}
+      <header class="clearfix">
+				<h1>{{ with .Site.Params.title }}{{ . | markdownify }}{{ end }}
+          <span>{{ with .Site.Params.subtitle }}{{ . | markdownify }}{{ end }}</span>
+        </h1>
+				<h3>{{.Site.Data.india.news}}</h3>
+			</header>
       <h4><a href="/" class="links">Go back to World Counters</a></h4>
 
       <div class="main">
         <!-- <ul id="og-grid" class="og-grid"> -->
         <ul class="og-grid">
-          {{ range $.Site.Data.india }}
+          {{ range $.Site.Data.india.items }}
           <li>
             <!-- <a
               href="{{.url}}"
