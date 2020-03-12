@@ -2,27 +2,34 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
   <head>
     <style>
-      .stateBox {
-        /* padding: 24px; */
+      .boxHolder {
         width: 16vw;
         height: 20vh;
         text-align: center;
-        background-color: #00897b;
         padding: 24px;
         min-width: 200px;
+        background-color: #fff;
+        color: #444;
       }
-      .stateName{
+      .boxTitle {
         font-weight: normal;
         font-size: 2vh;
         color: #eee;
       }
-      .stateCounter{
+      .boxCounter {
         line-height: 11vh;
         font-weight: bold;
         font-size: 7vh;
         color: #fff;
       }
-
+      .stateBox {
+        background-color: #00897b;
+        color: #fff;
+      }
+      .countryBox {
+        background-color: #6d4c41;
+        color: #fff;
+      }
     </style>
     {{ partial "head.html" . }}
   </head>
@@ -40,10 +47,10 @@
               data-description="{{.description }}"
               data-buttontext="{{.buttontext}}"
             > -->
-              <div class="stateBox">
-                <span class="stateName">{{.stateName}}</span><br/>
-                <span class="stateCounter">{{.stateCounter}}</span>
-              </div>
+            <div class="boxHolder {{.boxClass}}Box">
+              <span class="boxTitle">{{.stateName}}</span><br />
+              <span class="boxCounter">{{.stateCounter}}</span>
+            </div>
             <!-- </a> -->
           </li>
           {{ end }}
