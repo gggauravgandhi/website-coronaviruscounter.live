@@ -13,7 +13,7 @@ data.generateStatesData = async () => {
 
   try {
     await jsonfile.writeFile(
-      path.resolve(__dirname, "../data/newindia.json"),
+      path.resolve(__dirname, "../data/india.json"),
       statesData
     );
   } catch (exc) {

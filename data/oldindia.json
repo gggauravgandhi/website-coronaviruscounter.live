@@ -1,0 +1,132 @@
+[
+  {
+    "stateCounter": "73",
+    "image": "images/full/3.png",
+    "boxClass": "country",
+    "stateName": "India",
+    "thumb": "images/thumbs/3.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "17",
+    "image": "images/full/3.png",
+    "boxClass": "state",
+    "stateName": "Kerala",
+    "thumb": "images/thumbs/3.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "14",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Seal_of_Maharashtra.png/100px-Seal_of_Maharashtra.png",
+    "boxClass": "state",
+    "stateName": "Haryana",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Seal_of_Maharashtra.png/100px-Seal_of_Maharashtra.png",
+    "alt": "Hugrid Theme - Pune",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "11",
+    "image": "images/full/3.png",
+    "boxClass": "state",
+    "stateName": "Uttar Pradesh",
+    "thumb": "images/thumbs/3.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "11",
+    "image": "images/full/5.png",
+    "boxClass": "state",
+    "stateName": "Maharashtra",
+    "thumb": "images/thumbs/5.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "6",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Seal_of_Maharashtra.png/100px-Seal_of_Maharashtra.png",
+    "boxClass": "state",
+    "stateName": "Delhi",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Seal_of_Maharashtra.png/100px-Seal_of_Maharashtra.png",
+    "alt": "Seal_of_Maharashtra",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "4",
+    "image": "images/full/4.png",
+    "boxClass": "state",
+    "stateName": "Karnataka",
+    "thumb": "images/thumbs/4.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "3",
+    "image": "images/full/4.png",
+    "boxClass": "state",
+    "stateName": "Rajasthan",
+    "thumb": "images/thumbs/4.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "3",
+    "image": "images/full/4.png",
+    "boxClass": "state",
+    "stateName": "Ladakh",
+    "thumb": "images/thumbs/4.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "1",
+    "image": "images/full/5.png",
+    "boxClass": "state",
+    "stateName": "Telengana",
+    "thumb": "images/thumbs/5.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "1",
+    "image": "images/full/1.png",
+    "boxClass": "state",
+    "stateName": "Tamil Nadu",
+    "thumb": "images/thumbs/1.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "1",
+    "image": "images/full/2.png",
+    "boxClass": "state",
+    "stateName": "Jammu and Kashmir",
+    "thumb": "images/thumbs/2.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  },
+  {
+    "stateCounter": "1",
+    "image": "images/full/3.png",
+    "boxClass": "state",
+    "stateName": "Punjab",
+    "thumb": "images/thumbs/3.png",
+    "alt": "Hugrid Theme",
+    "description": "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.",
+    "url": "https://github.com/aerohub/hugrid"
+  }
+]
