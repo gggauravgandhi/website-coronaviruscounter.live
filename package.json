@@ -1,0 +1,64 @@
+{
+  "name": "coronaviruscounter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gggauravgandhi/website-coronaviruscounter.live.git"
+  },
+  "keywords": [
+    "coronavirus",
+    "india",
+    "counter",
+    "coronavirus",
+    "update",
+    "coronavirus",
+    "india",
+    "india",
+    "counter",
+    "coronavirus",
+    "numbers",
+    "coronavirus",
+    "update",
+    "coronavirus",
+    "in",
+    "india",
+    "coronavirus",
+    "news",
+    "coronavirus",
+    "china",
+    "coronavirus",
+    "affected",
+    "areas",
+    "in",
+    "india",
+    "coronavirus",
+    "bangalore",
+    "coronavirus",
+    "delhi",
+    "coronavirus",
+    "mumbai",
+    "coronavirus",
+    "by",
+    "country",
+    "coronavirus",
+    "cases",
+    "in",
+    "india"
+  ],
+  "author": "imgg.gauravgandhi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gggauravgandhi/website-coronaviruscounter.live/issues"
+  },
+  "homepage": "https://github.com/gggauravgandhi/website-coronaviruscounter.live#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "jsonfile": "^6.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
