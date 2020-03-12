@@ -19,7 +19,7 @@
       .boxCounter {
         line-height: 11vh;
         font-weight: bold;
-        font-size: 7vh;
+        font-size: 6vh;
         color: #fff;
       }
       .stateBox {
@@ -27,7 +27,11 @@
         color: #fff;
       }
       .countryBox {
-        background-color: #6d4c41;
+        background-color: #303f9f;
+        color: #fff;
+      }
+      .planetBox {
+        background-color: #b71c1c;
         color: #fff;
       }
     </style>
@@ -37,8 +41,9 @@
     <div class="container">
       {{ partial "header.html" . }}
       <div class="main">
-        <ul id="og-grid" class="og-grid">
-          {{ range $.Site.Data.india }}
+        <!-- <ul id="og-grid" class="og-grid"> -->
+        <ul class="og-grid">
+          {{ range $.Site.Data.world }}
           <li>
             <!-- <a
               href="{{.url}}"
@@ -47,11 +52,12 @@
               data-description="{{.description }}"
               data-buttontext="{{.buttontext}}"
             > -->
-            <div class="boxHolder {{.boxClass}}Box">
-              <span class="boxTitle">{{.title}}</span><br />
-              <span class="boxCounter">{{.count}}</span>
-            </div>
-            <!-- </a> -->
+            <a href="/india">
+              <div class="boxHolder {{.boxClass}}Box">
+                <span class="boxTitle">{{.title}}</span><br />
+                <span class="boxCounter">{{.count}}</span>
+              </div>
+            </a>
           </li>
           {{ end }}
         </ul>
