@@ -41,11 +41,11 @@
     <div class="container">
       <header class="clearfix">
 				<h1>{{ with .Site.Params.title }}{{ . | markdownify }}{{ end }}
-          <span>{{ with .Site.Params.subtitle }}{{ . | markdownify }}{{ end }}</span>
+          <span>{{ with .Site.Data.india.news }}{{ . | markdownify }}{{ end }}</span>
         </h1>
-				<h3>{{.Site.Data.india.news}}</h3>
+        <!-- <h3>{{.Site.Data.india.news}}</h3> -->
+        <h4><a href="/" class="links">Go back to World Counters</a></h4>
 			</header>
-      <h4><a href="/" class="links">Go back to World Counters</a></h4>
 
       <div class="main">
         <!-- <ul id="og-grid" class="og-grid"> -->

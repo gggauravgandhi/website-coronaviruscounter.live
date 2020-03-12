@@ -110,7 +110,7 @@ data.generator.states = async () => {
   return {
     items: statesData,
     news:
-      `The total number of confirmed Coronavirus cases has now gone up to ${statesData[0]['count']} in India, according to the Union Health Ministry as on ${(new Date()).toLocaleString()}.`
+      `The total number of confirmed Coronavirus cases has now gone up to ${statesData[0]['count']} in India, according to the Union Health Ministry as on ${(new Date()).toGMTString()}.`
   };
 };
 
@@ -170,7 +170,7 @@ data.generator.countries = async () => {
   return {
     items: countriesData,
     news:
-    `The total number of confirmed Coronavirus cases has now gone up to ${countriesData[0]['count']} in World, according to the <a href="https://www.worldometers.info/coronavirus/">WorldMeters</a> as on ${(new Date()).toLocaleString()}.`
+    `The total number of confirmed Coronavirus cases has now gone up to ${countriesData[0]['count']} in World, according to the <a href="https://www.worldometers.info/coronavirus/">WorldMeters</a> as on ${(new Date()).toGMTString()}.`
   };
 };
 
