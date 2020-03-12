@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/india/</loc>
+    <loc>/china/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/world/</loc>
+    <loc>/india/</loc>
     <priority>0</priority>
   </url>
   

@@ -12,20 +12,20 @@
     
     <item>
       <title></title>
-      <link>/india/</link>
+      <link>/china/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/india/</guid>
-      <description>.boxHolder { width: 16vw; height: 20vh; text-align: center; padding: 24px; min-width: 200px; background-color: #fff; color: #444; } .boxTitle { font-weight: normal; font-size: 2vh; color: #eee; } .boxCounter { line-height: 11vh; font-weight: bold; font-size: 7vh; color: #fff; } .stateBox { background-color: #00897b; color: #fff; } .countryBox { background-color: #6d4c41; color: #fff; }  {{ partial &#34;head.html&#34; . }}   {{ partial &#34;header.html&#34; . }} World Counters {{ range $.</description>
+      <guid>/china/</guid>
+      <description>.boxHolder { width: 16vw; height: 20vh; text-align: center; padding: 24px; min-width: 200px; background-color: #fff; color: #444; } .boxTitle { font-weight: normal; font-size: 2vh; color: #eee; } .boxCounter { line-height: 11vh; font-weight: bold; font-size: 6vh; color: #fff; } .stateBox { background-color: #00897b; color: #fff; } .countryBox { background-color: #303f9f; color: #fff; } .planetBox { background-color: #b71c1c; color: #fff; }  {{ partial &#34;head.html&#34; . }}   {{ partial &#34;</description>
     </item>
     
     <item>
       <title></title>
-      <link>/world/</link>
+      <link>/india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/world/</guid>
-      <description>.boxHolder { width: 16vw; height: 20vh; text-align: center; padding: 24px; min-width: 200px; background-color: #fff; color: #444; } .boxTitle { font-weight: normal; font-size: 2vh; color: #eee; } .boxCounter { line-height: 11vh; font-weight: bold; font-size: 7vh; color: #fff; } .stateBox { background-color: #00897b; color: #fff; } .countryBox { background-color: #6d4c41; color: #fff; }  {{ partial &#34;head.html&#34; . }}   {{ partial &#34;header.html&#34; . }} India Counters {{ range $.</description>
+      <guid>/india/</guid>
+      <description>.boxHolder { width: 16vw; height: 20vh; text-align: center; padding: 24px; min-width: 200px; background-color: #fff; color: #444; } .boxTitle { font-weight: normal; font-size: 2vh; color: #eee; } .boxCounter { line-height: 11vh; font-weight: bold; font-size: 7vh; color: #fff; } .stateBox { background-color: #00897b; color: #fff; } .countryBox { background-color: #303f9f; color: #fff; } .planetBox { background-color: #b71c1c; color: #fff; }  {{ partial &#34;head.html&#34; . }}   {{ partial &#34;</description>
     </item>
     
   </channel>
